@@ -1,0 +1,39 @@
+# Redis Test Data Setup Commands
+
+# Run these commands in Redis CLI (redis-cli)
+
+# Session tokens
+SET session:user1 "token_abc123xyz789"
+SET session:user2 "token_def456uvw012"
+SET session:standard_user "token_std_user_2024"
+
+# Session with expiry (3600 seconds = 1 hour)
+SETEX session:temp_user 3600 "token_temp_123"
+
+# Product filters
+SET filter:price:low "0"
+SET filter:price:high "50"
+SET filter:category "all"
+
+# Feature flags
+SET feature:checkout:enabled "true"
+SET feature:payment:enabled "true"
+SET feature:discount:enabled "false"
+
+# User preferences
+HSET user:standard_user:prefs theme "dark"
+HSET user:standard_user:prefs language "en"
+HSET user:standard_user:prefs notifications "enabled"
+
+# Cart data (using hash)
+HSET cart:user1 sauce-labs-backpack "1"
+HSET cart:user1 sauce-labs-bike-light "2"
+
+# Test flags
+SET test:mode "automation"
+SET test:environment "qa"
+
+# Verify data
+# Run: KEYS *
+# Run: GET session:user1
+# Run: HGETALL user:standard_user:prefs

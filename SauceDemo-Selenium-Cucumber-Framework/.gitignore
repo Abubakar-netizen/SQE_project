@@ -1,0 +1,48 @@
+# Gitignore for UI Test Automation Framework
+
+# Compiled class files
+*.class
+target/
+*.jar
+*.war
+*.ear
+
+# IDE specific files
+.idea/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+.vscode/
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Test outputs
+test-output/
+screenshots/
+*.log
+
+# Allure
+allure-results/
+allure-report/
+.allure/
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*~
+
+# Sensitive data
+config.properties.local
+*.credentials
+
+# Temporary files
+*.tmp
+temp/
