@@ -85,6 +85,28 @@ Before running the tests, ensure you have the following installed:
 - *MySQL 8.0+* (optional, for database tests)
 - *Redis* (optional, for Redis tests)
 
+### Installation
+
+1. *Clone the repository*
+   bash
+   git clone <repository-url>
+   cd SauceDemo-Selenium-Cucumber-Framework
+   
+
+2. *Install Maven dependencies*
+   bash
+   mvn clean install
+   
+
+3. *Configure Settings*
+   Edit src/main/resources/config.properties to set your environment:
+   properties
+   app.url=https://www.saucedemo.com
+   browser=chrome
+   implicit.wait=10
+   
+
+---
 
 
 
