@@ -107,6 +107,26 @@ Before running the tests, ensure you have the following installed:
    
 
 ---
+##  Running Tests
+
+### Run All Tests
+bash
+mvn clean test
+
+
+### Run Specific Tags
+You can run specific subsets of tests using Cucumber tags:
+bash
+# Run only smoke tests
+mvn clean test -Dcucumber.filter.tags="@smoke"
+
+# Run regression tests
+mvn clean test -Dcucumber.filter.tags="@regression"
+
+
+---
+
+## 📝 Writing and Executing Test Cases
 
 
 
