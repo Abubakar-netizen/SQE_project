@@ -175,6 +175,36 @@ public class LoginPage extends BasePage {
     }
 }
 
+### 3. Create Step Definitions
+Create a class in src/test/java/stepdefinitions/ to map Gherkin steps to Java code.
+
+*Example*: LoginSteps.java
+java
+public class LoginSteps {
+    private LoginPage loginPage = new LoginPage(DriverManager.getDriver());
+
+    @Given("I am on the login page")
+    public void i_am_on_the_login_page() {
+        DriverManager.getDriver().get(ConfigReader.getProperty("app.url"));
+    }
+
+    @When("I enter username {string} and password {string}")
+    public void i_enter_credentials(String username, String password) {
+        loginPage.enterUsername(username);
+        loginPage.enterPassword(password);
+    }
+
+    @And("I click the login button")
+    public void i_click_login() {
+        loginPage.clickLogin();
+    }
+}
+
+
+### 4. Run the Test
+Run the specific tag to verify your new test:
+bash
+mvn clean test -Dcucumber.filter.tags="@smoke"
 
 
 
