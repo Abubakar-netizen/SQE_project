@@ -1,0 +1,55 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"  As a user of SauceDemo
+  I want to be able to login to the application
+  So that I can access the products and features","320","TC04 - Successful logout","","Wed Dec 03 18:21:17 UTC 2025","skipped","Wed Dec 03 18:21:17 UTC 2025","","Login Functionality","TC04 - Successful logout",""
+"  As a user of SauceDemo
+  I want to be able to login to the application
+  So that I can access the products and features","315","TC02 - Login fails with invalid username","","Wed Dec 03 18:21:16 UTC 2025","skipped","Wed Dec 03 18:21:16 UTC 2025","","Login Functionality","TC02 - Login fails with invalid username",""
+"  As a user of SauceDemo
+  I want to browse and manage products
+  So that I can add items to my cart","318","TC05 - View all products on the products page","","Wed Dec 03 18:21:17 UTC 2025","skipped","Wed Dec 03 18:21:17 UTC 2025","","Product Management","TC05 - View all products on the products page",""
+"  As a test automation framework
+  I want to validate UI elements and integrate with data sources
+  So that I can ensure application quality and data-driven testing","309","TC18 - Verify session data in Redis","","Wed Dec 03 18:21:19 UTC 2025","skipped","Wed Dec 03 18:21:19 UTC 2025","","UI Validation and Data Integration","TC18 - Verify session data in Redis",""
+"  As a user of SauceDemo
+  I want to browse and manage products
+  So that I can add items to my cart","309","TC08 - Remove product from cart on products page","","Wed Dec 03 18:21:18 UTC 2025","skipped","Wed Dec 03 18:21:18 UTC 2025","","Product Management","TC08 - Remove product from cart on products page",""
+"  As a user of SauceDemo
+  I want to manage my shopping cart
+  So that I can review and modify items before checkout","320","TC11 - Remove item from cart page","","Wed Dec 03 18:21:14 UTC 2025","skipped","Wed Dec 03 18:21:15 UTC 2025","","Shopping Cart Management","TC11 - Remove item from cart page",""
+"  As a user of SauceDemo
+  I want to complete the checkout process
+  So that I can purchase my selected items","326","TC14 - Verify checkout overview displays correct information","","Wed Dec 03 18:21:15 UTC 2025","skipped","Wed Dec 03 18:21:16 UTC 2025","","Checkout Process","TC14 - Verify checkout overview displays correct information",""
+"  As a user of SauceDemo
+  I want to browse and manage products
+  So that I can add items to my cart","309","TC07 - Add a single product to cart","","Wed Dec 03 18:21:18 UTC 2025","skipped","Wed Dec 03 18:21:18 UTC 2025","","Product Management","TC07 - Add a single product to cart",""
+"  As a test automation framework
+  I want to validate UI elements and integrate with data sources
+  So that I can ensure application quality and data-driven testing","310","TC16 - Verify product data from Excel","","Wed Dec 03 18:21:19 UTC 2025","skipped","Wed Dec 03 18:21:19 UTC 2025","","UI Validation and Data Integration","TC16 - Verify product data from Excel",""
+"  As a user of SauceDemo
+  I want to manage my shopping cart
+  So that I can review and modify items before checkout","346","TC10 - View cart with added items","","Wed Dec 03 18:21:14 UTC 2025","skipped","Wed Dec 03 18:21:14 UTC 2025","","Shopping Cart Management","TC10 - View cart with added items",""
+"  As a user of SauceDemo
+  I want to complete the checkout process
+  So that I can purchase my selected items","324","TC12 - Complete checkout with valid information","","Wed Dec 03 18:21:15 UTC 2025","skipped","Wed Dec 03 18:21:15 UTC 2025","","Checkout Process","TC12 - Complete checkout with valid information",""
+"  As a user of SauceDemo
+  I want to complete the checkout process
+  So that I can purchase my selected items","320","TC13 - Checkout fails with empty information","","Wed Dec 03 18:21:15 UTC 2025","skipped","Wed Dec 03 18:21:15 UTC 2025","","Checkout Process","TC13 - Checkout fails with empty information",""
+"  As a test automation framework
+  I want to validate UI elements and integrate with data sources
+  So that I can ensure application quality and data-driven testing","304","TC15 - Verify page titles and URLs","","Wed Dec 03 18:21:18 UTC 2025","skipped","Wed Dec 03 18:21:19 UTC 2025","","UI Validation and Data Integration","TC15 - Verify page titles and URLs",""
+"  As a user of SauceDemo
+  I want to browse and manage products
+  So that I can add items to my cart","315","TC06 - Sort products by price low to high","","Wed Dec 03 18:21:17 UTC 2025","skipped","Wed Dec 03 18:21:18 UTC 2025","","Product Management","TC06 - Sort products by price low to high",""
+"  As a user of SauceDemo
+  I want to be able to login to the application
+  So that I can access the products and features","328","TC03 - Login fails with empty credentials","","Wed Dec 03 18:21:16 UTC 2025","skipped","Wed Dec 03 18:21:17 UTC 2025","","Login Functionality","TC03 - Login fails with empty credentials",""
+"  As a user of SauceDemo
+  I want to be able to login to the application
+  So that I can access the products and features","321","TC01 - Successful login with valid credentials","","Wed Dec 03 18:21:16 UTC 2025","skipped","Wed Dec 03 18:21:16 UTC 2025","","Login Functionality","TC01 - Successful login with valid credentials",""
+"  As a user of SauceDemo
+  I want to manage my shopping cart
+  So that I can review and modify items before checkout","6458","TC09 - Add multiple products to cart","","Wed Dec 03 18:21:07 UTC 2025","skipped","Wed Dec 03 18:21:14 UTC 2025","","Shopping Cart Management","TC09 - Add multiple products to cart",""
+"  As a test automation framework
+  I want to validate UI elements and integrate with data sources
+  So that I can ensure application quality and data-driven testing","309","TC17 - Validate login credentials from database","","Wed Dec 03 18:21:19 UTC 2025","skipped","Wed Dec 03 18:21:19 UTC 2025","","UI Validation and Data Integration","TC17 - Validate login credentials from database",""
