@@ -272,6 +272,19 @@ We use *Allure* for rich, interactive reports.
 - Reference issue numbers in commits (e.g., Fixes #12).
 
 ---
+##  Team Information
+
+*Course*: Software Quality Engineering - Fall 2025  
+*Project*: UI Test Automation Framework  
+
+*Team Members*:
+- Student 1: Abubakar - 23f-3003
+- Student 2: Hafiz Rizwan 23f-3014
+- Student 3: Zaid Hassan 23f-3031
+
+---
+
+*Happy Testing! 🚀*
 
 
 
