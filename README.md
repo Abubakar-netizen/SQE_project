@@ -242,6 +242,36 @@ The framework supports multiple data sources. Helpers are located in src/main/ja
     java
     String value = RedisHelper.get("session_key");
     
+### Generating Reports
+We use *Allure* for rich, interactive reports.
+
+1.  *Run Tests*: mvn clean test (Generates allure-results)
+2.  *Serve Report*: mvn allure:serve (Starts local server and opens report)
+3.  *Generate Static Report*: mvn allure:report (Creates target/site/allure-maven-plugin/index.html)
+
+---
+
+##  GitHub Workflow & Code Management
+
+### Branching Strategy
+- *main*: Stable, production-ready code.
+- *develop*: Integration branch for ongoing development.
+- *feature/feature-name*: Create a new branch for each new feature or test suite.
+
+### Pull Request (PR) Process
+1.  *Create Branch*: git checkout -b feature/add-cart-tests
+2.  *Commit Changes*: git commit -m "Added cart functionality tests"
+3.  *Push*: git push origin feature/add-cart-tests
+4.  *Open PR*: Create a Pull Request on GitHub targeting main or develop.
+5.  *Review*: Team members review code for standards and logic.
+6.  *Merge*: Once approved and CI passes, merge into the base branch.
+
+### Issue Tracking
+- Use *GitHub Issues* to track bugs and feature requests.
+- Label issues appropriately (e.g., bug, enhancement, documentation).
+- Reference issue numbers in commits (e.g., Fixes #12).
+
+---
 
 
 
