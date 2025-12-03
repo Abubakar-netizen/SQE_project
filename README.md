@@ -31,6 +31,46 @@ This is a comprehensive *UI Test Automation Framework* built using *Selenium + J
 
 ---
 
+ui-test-framework/
+│
+├── src/
+│   ├── main/java/
+│   │   ├── pages/              # Page Object Model classes
+│   │   │   ├── BasePage.java
+│   │   │   ├── LoginPage.java
+│   │   │   └── ...
+│   │   │
+│   │   └── utils/              # Utility classes
+│   │       ├── ConfigReader.java
+│   │       ├── DriverManager.java
+│   │       ├── ExcelReader.java
+│   │       └── ...
+│   │
+│   ├── main/resources/
+│   │   └── config.properties   # Configuration file
+│   │
+│   └── test/
+│       ├── java/
+│       │   ├── runners/
+│       │   │   └── TestRunner.java
+│       │   │
+│       │   └── stepdefinitions/
+│       │       ├── LoginSteps.java
+│       │       └── ...
+│       │
+│       └── resources/
+│           ├── features/       # Gherkin feature files
+│           │   ├── login.feature
+│           │   └── ...
+│           │
+│           └── allure.properties
+│
+├── test-data/                  # External data sources
+├── pom.xml                     # Maven configuration
+├── testng.xml                  # TestNG configuration
+└── README.md
+
+
 
 
 
