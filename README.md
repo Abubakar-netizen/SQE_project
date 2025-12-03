@@ -18,6 +18,19 @@
 
 This is a comprehensive *UI Test Automation Framework* built using *Selenium + Java + Cucumber (BDD)* for testing the [SauceDemo](https://www.saucedemo.com) web application.
 
+### Key Features
+
+ *18 Automated Test Cases* covering login, products, cart, checkout, and validation  
+ *Page Object Model (POM)* design pattern for maintainability  
+ *Behavior-Driven Development (BDD)* with Cucumber and Gherkin  
+ *Allure Reporting* with screenshots on failure  
+ *Data-Driven Testing* with Excel, MySQL Database, and Redis  
+ *Multi-Browser Support* (Chrome, Firefox, Edge)  
+ *Parallel Execution* capability with TestNG  
+ *CI/CD Ready* with Maven build automation  
+
+---
+
 
 
 
