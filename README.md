@@ -14,6 +14,9 @@
 
 \[!\[Allure](https://img.shields.io/badge/Allure-2.24.0-yellow.svg)](https://docs.qameta.io/allure/)
 
+##  Project Overview
+
+This is a comprehensive *UI Test Automation Framework* built using *Selenium + Java + Cucumber (BDD)* for testing the [SauceDemo](https://www.saucedemo.com) web application.
 
 
 
