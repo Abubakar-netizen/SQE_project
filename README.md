@@ -225,6 +225,23 @@ mvn clean test -Dcucumber.filter.tags="@smoke"
 
 ---
 
+##  Data Integration & Reporting
+
+### Integrating Data Sources
+The framework supports multiple data sources. Helpers are located in src/main/java/utils/.
+
+1.  *Excel*: Use ExcelReader.java to read from test-data/testdata.xlsx.
+    java
+    String data = ExcelReader.getCellData("Sheet1", 1, 0);
+    
+2.  *Database*: Use DatabaseHelper.java to query MySQL.
+    java
+    ResultSet rs = DatabaseHelper.executeQuery("SELECT * FROM users");
+    
+3.  *Redis*: Use RedisHelper.java for caching/session validation.
+    java
+    String value = RedisHelper.get("session_key");
+    
 
 
 
