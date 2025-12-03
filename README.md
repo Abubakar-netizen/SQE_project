@@ -205,6 +205,26 @@ public class LoginSteps {
 Run the specific tag to verify your new test:
 bash
 mvn clean test -Dcucumber.filter.tags="@smoke"
+## Design Decisions
+
+### Why Selenium + Java?
+- *Robustness*: Java provides strong typing and a vast ecosystem.
+- *Community*: Selenium has the largest community support for web automation.
+
+### Why Cucumber (BDD)?
+- *Collaboration*: Gherkin syntax allows non-technical stakeholders (PO, QA, Dev) to understand test scenarios.
+- *Living Documentation*: Feature files serve as up-to-date documentation of system behavior.
+
+### Why Page Object Model (POM)?
+- *Maintainability*: Locators are kept separate from test logic. If a UI element changes, you only update the Page class, not every test.
+- *Reusability*: Page methods (e.g., login()) can be reused across multiple scenarios.
+
+### Why TestNG?
+- *Parallel Execution*: Native support for running tests in parallel.
+- *Annotations*: Powerful control over test lifecycle (@BeforeMethod, @AfterSuite).
+
+---
+
 
 
 
