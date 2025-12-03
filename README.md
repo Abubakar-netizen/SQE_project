@@ -71,6 +71,20 @@ ui-test-framework/
 └── README.md
 
 
+---
+
+##  Getting Started
+
+### Prerequisites
+
+Before running the tests, ensure you have the following installed:
+
+- *Java JDK 11+* - [Download](https://www.oracle.com/java/technologies/downloads/)
+- *Maven 3.6+* - [Download](https://maven.apache.org/download.cgi)
+- *Google Chrome* (or Firefox/Edge)
+- *MySQL 8.0+* (optional, for database tests)
+- *Redis* (optional, for Redis tests)
+
 
 
 
