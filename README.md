@@ -127,6 +127,21 @@ mvn clean test -Dcucumber.filter.tags="@regression"
 ---
 
 ## 📝 Writing and Executing Test Cases
+### 1. Create a Feature File
+Create a new .feature file in src/test/resources/features/. Use Gherkin syntax to describe the scenario.
+
+*Example*: login.feature
+gherkin
+Feature: Login Functionality
+
+  @smoke
+  Scenario: Successful login with valid credentials
+    Given I am on the login page
+    When I enter username "standard_user" and password "secret_sauce"
+    And I click the login button
+    Then I should be redirected to the products page
+
+
 
 
 
