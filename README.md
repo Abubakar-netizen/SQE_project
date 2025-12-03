@@ -142,6 +142,39 @@ Feature: Login Functionality
     Then I should be redirected to the products page
 
 
+### 2. Create Page Objects
+Create a class in src/main/java/pages/ to represent the web page. Use the Page Object Model pattern.
+
+*Example*: LoginPage.java
+java
+public class LoginPage extends BasePage {
+    
+    @FindBy(id = "user-name")
+    private WebElement usernameField;
+
+    @FindBy(id = "password")
+    private WebElement passwordField;
+
+    @FindBy(id = "login-button")
+    private WebElement loginButton;
+
+    public LoginPage(WebDriver driver) {
+        super(driver);
+    }
+
+    public void enterUsername(String username) {
+        usernameField.sendKeys(username);
+    }
+
+    public void enterPassword(String password) {
+        passwordField.sendKeys(password);
+    }
+
+    public void clickLogin() {
+        loginButton.click();
+    }
+}
+
 
 
 
